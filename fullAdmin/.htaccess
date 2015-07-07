@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Restricted area"
+AuthUserFile C:/wamp/www/WellsfargoKR/fullAdmin/.htpasswd
+SetEnvIf Cookie PHPSESSID=.* PASS=1
+Require valid-user
